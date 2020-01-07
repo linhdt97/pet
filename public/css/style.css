@@ -1,0 +1,15 @@
+@import "header.css";
+@import "banner.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round';
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
