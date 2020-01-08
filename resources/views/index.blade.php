@@ -39,6 +39,74 @@
         </div>
     </div>
     <div class="_banner"></div>
+
+    <div class="_footer">
+        <div class="_container clear-fix">
+            <div class="info">
+                <div class="open">
+                    <label class="label">Giờ mở cửa</label>
+                    <div class="content">
+                        <div class="item">
+                            <span>Thứ 2 - Thứ 6:</span>
+                            <span>9:00 - 21:00</span>
+                        </div>
+                        <div class="item">
+                            <span>Thứ 7, Chủ nhật:</span>
+                            <span>10:00 - 22:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="place">
+                    <label class="label">Liên hệ</label>
+                    <div class="content">
+                        <div class="item">
+                            <span>Địa chỉ:</span>
+                            <span>Số 40 Vương Thừa Vũ, Thanh Xuân, Hà Nội</span>
+                        </div>
+                        <div class="item">
+                            <span>Email:</span>
+                            <span>hanvu94@gmail.com</span>
+                        </div>
+                        <div class="item">
+                            <span>Số điện thoại:</span>
+                            <span>+84 9 3849 2044</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thanks">
+                <div class="icon"></div>
+                <div class="content">Cám ơn bạn đã ghé thăm cửa hàng!</div>
+            </div>
+            <div class="contact">
+                <label class="label">Nhận tin hôm nay, nhận ngay ưu đãi</label>
+                <div>Đăng ký nhận bản tin của chúng tôi và nhận giảm giá 10% cho đơn hàng đầu tiên.</div>
+                <div>
+                    <form>
+                        <input name="email" type="email" placeholder="Email:">
+                        <button>Đăng ký</button>
+                    </form>
+                </div>
+                <div>
+                    <label class="label fanpage">Fanpages:</label>
+                    <form>
+                        <input type="text" name="petme" placeholder="Petme">
+                        <button>Theo dõi</button>
+                    </form>
+                </div>
+                <div class="connect">
+                    <span>Kết nối với chúng tôi</span>
+                    <div class="icon">
+                        <i class="logo-instagram"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="logo-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">&copy; Photo, Inc. 2019. We love our users!</div>
+    </div>
 </div>
 
 <script src="{!! asset('libs/jquery.min.js') !!}"></script>
