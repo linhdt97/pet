@@ -39,6 +39,60 @@
         </div>
     </div>
     <div class="_banner"></div>
+    <div class="_main">
+        <div class="introduce">
+            <label class="title">Hãy để Petme đem đến những bữa ăn bổ dưỡng và an toàn nhất cho pet yêu của bạn!</label>
+            <div class="clear-fix">
+                <div class="quality">
+                    <div class="icon"></div>
+                    <label>Giấy chức nhận chất lượng</label>
+                    <span>Quy trình chế biến đảm bảo theo yêu cầu của Bộ Nông nghiệp</span>
+                </div>
+                <div class="ship">
+                    <div class="icon"></div>
+                    <label>Ship hàng định kỳ</label>
+                    <span>Đặt hàng một lần, nhận hàng mỗi tuần cho pate luôn tươi ngon</span>
+                </div>
+                <div class="refund">
+                    <div class="icon"></div>
+                    <label>Hoàn tiền 100%</label>
+                    <span>Cam kết hoàn lại tiền khi khách không hài lòng về chất lượng</span>
+                </div>
+            </div>
+            <div>
+                <label class="title">Cùng Petme mang mái ấm đến cho những thú cưng đi lạc!</label>
+                <div class="content clear-fix">
+                    <div class="image"></div>
+                    <div>
+                        <div class="info clear-fix">
+                            <div class="left">
+                                <span>Thời gian: 10/12/2019</span>
+                                <span>Địa điểm: Quận Thanh Xuân</span>
+                                <span>Loại thú cưng: Mèo ta</span>
+                            </div>
+                            <div class="right">
+                                <span>Người đăng: Hanvu</span>
+                                <span>Liên hệ: 0966250826</span>
+                                <span>Tình trạng: Chưa được nhận nuôi</span>
+                            </div>
+                        </div>
+                        <div class="note">
+                            Note: Mình mới nhặt được 2 bé mèo ta màu vàng khoảng 2 tháng tuổi rất xinh và ngoan
+                            nhưng điều kiện không cho phép nuôi thêm nên tìm chủ yêu thương cho 2 bé
+                        </div>
+                        <div class="links">
+                            <div class="link">
+                                <a href="#">Nhận nuôi</a>
+                                <a href="#">Đăng ký nhận tin</a>
+                                <a href="#">Xem tin khác</a>
+                            </div>
+                            <div class="icon logo-messenger"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="_footer">
         <div class="_container clear-fix">
