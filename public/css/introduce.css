@@ -1,0 +1,111 @@
+._main .introduce {
+    width: 80%;
+    margin: auto;
+}
+._main .introduce .title {
+    width: 65%;
+    margin: 25px auto;
+    display: block;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+._main .introduce>.clear-fix {
+    display: flex;
+}
+._main .introduce>.clear-fix>div {
+    background-color: #ffebbb;
+    border-radius: 15px;
+    padding: 10px;
+    flex: 1;
+}
+._main .introduce .ship, ._main .introduce .refund {
+    margin-left: 40px;
+}
+._main .introduce .clear-fix>div>.icon {
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+    background-image: url("../images/user.png");
+    background-size: cover;
+}
+._main .introduce>.clear-fix>div>label {
+    color: #f08233;
+    text-transform: uppercase;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+}
+._main .introduce>.clear-fix>div>span {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+._main .introduce>div:nth-child(3) {
+    background-color: #ebebeb;
+    width: 80%;
+    margin: auto;
+}
+._main .introduce>div:nth-child(3) .title {
+    padding-top: 20px;
+    margin-top: 40px;
+}
+._main .introduce .image {
+    background-image: url("../images/user.png");
+    background-size: cover;
+    height: 220px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+._main .introduce .content {
+    margin: 30px;
+}
+._main .introduce .content>div {
+    float: left;
+}
+._main .introduce .content .image {
+    width: 30%;
+}
+._main .introduce .content>div:nth-child(2) {
+    width: 70%;
+    padding: 30px 20px 20px;
+}
+._main .introduce .info span {
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+}
+._main .introduce .info>div {
+    float: left;
+    width: 50%;
+}
+._main .introduce .note {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+._main .introduce .link {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+._main .introduce .link a {
+    color: #ef8f4a;
+    text-decoration: underline;
+}
+._main .introduce .links {
+    position: relative;
+}
+._main .introduce .links .icon {
+    background-image: url(../images/logo-youtube.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
