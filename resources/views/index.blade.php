@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet shop</title>
     <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{!! asset('fonts/css/all.css') !!}">
+    <link rel="stylesheet" type="text/css" href="fonts/css/all.css">
     <link rel="stylesheet" type="text/css" href="{!! asset('css/style.css') !!}">
 </head>
 <body>
@@ -38,7 +38,9 @@
             </div>
         </div>
     </div>
-    <div class="_banner"></div>
+    <div class="_banner">
+        <img src="images/banner-1.jpg">
+    </div>
     <div class="_main">
         <div class="introduce">
             <label class="title">Hãy để Petme đem đến những bữa ăn bổ dưỡng và an toàn nhất cho pet yêu của bạn!</label>
