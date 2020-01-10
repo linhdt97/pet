@@ -92,6 +92,208 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <div class="products">
+                <div class="hot-products">
+                    <div class="panel-heading">
+                        <label class="title">Sản phẩm hot</label>
+                        <a href="#" class="view-more">Xem thêm</a>
+                    </div>
+                    <div class="product-list clear-fix">
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                                <i class="icon icon-highlight">Hot</i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                                <i class="icon icon-highlight">Hot</i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                                <i class="icon icon-highlight">Hot</i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-products">
+                    <div class="panel-heading">
+                        <label class="title">Sản phẩm mới</label>
+                        <a href="#" class="view-more">Xem thêm</a>
+                    </div>
+                    <div class="product-list clear-fix">
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                                <i class="icon icon-highlight">New</i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                                <i class="icon icon-highlight">New</i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                                <i class="icon icon-highlight">New</i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-products">
+                    <div class="panel-heading">
+                        <label class="title">Sản phẩm khác</label>
+                        <a href="#" class="view-more">Xem thêm</a>
+                    </div>
+                    <div class="product-list clear-fix">
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="image">
+                                <img src="images/image-not-available.jpg">
+                                <i class="icon icon-heart"></i>
+                                <i class="icon icon-cart"></i>
+                            </div>
+                            <div class="info">
+                                <label class="name">Pate Tôm Gan Gà</label>
+                                <div class="price">
+                                    <span class="real-price">100.000 vnđ</span>
+                                    <span class="promotion-price">120.000 vnđ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="_footer">
