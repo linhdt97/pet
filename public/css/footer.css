@@ -19,10 +19,9 @@
     width: 33%;
 }
 ._footer .contact, ._footer .info {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 ._footer .thanks {
-    margin-top: -25px;
     text-align: center;
 }
 ._footer .info .open {
@@ -36,16 +35,18 @@
     width: 35%;
     min-width: 105px;
 }
-._footer .thanks .icon {
-    background-image: url('../images/user.png');
+._footer .thanks .logo-orange {
+    background-image: url('../images/design/logo-orange.png');
     background-size: cover;
     background-position: center;
-    width: 100px;
+    display: inline-block;
+    width: calc(100px * 1892/1034);
     height: 100px;
     margin: auto;
 }
-._footer .thanks .content {
+._footer .thanks>p {
     font-size: 20px;
+    margin-top: 10px;
     font-weight: 600;
 }
 ._footer form {
@@ -55,7 +56,7 @@
 ._footer input, ._footer button {
     font-size: 15px;
     border-radius: 25px;
-    border: 2px solid #f08233;
+    border: 0;
     outline: 0;
     padding: 10px 15px;
 }
@@ -88,6 +89,9 @@
 }
 ._footer .connect span {
     flex: 1;
+}
+._footer .contact p {
+    line-height: 20px;
 }
 ._footer .contact .icon {
     display: inline-flex;

@@ -1,0 +1,43 @@
+._highlight {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+._highlight>div {
+    background-color: #ffebbb;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 275px;
+}
+._highlight i {
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+}
+._highlight i.icon-quality {
+    width: calc(60px * 65/60);
+}
+._highlight i.icon-shipping {
+    width: calc(60px * 72/60);
+}
+._highlight>div>label {
+    color: #f08233;
+    text-transform: uppercase;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+}
+._highlight>div>span {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}

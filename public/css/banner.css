@@ -1,3 +1,27 @@
+._banner {
+    position: relative;
+}
 ._banner img {
 	width: 100%;
+}
+._banner .slide-2, ._banner .slide-3 {
+    display: none;
+}
+._banner .switch {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+._banner .switch span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 2px solid #f08233;
+    cursor: pointer;
+}
+._banner .switch span.active {
+    background-color: #f08233;
 }
