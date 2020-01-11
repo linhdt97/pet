@@ -1,9 +1,39 @@
 i.icon-heart {
-    background-image: url("../images/icon-heart.png");
+    background-image: url("../images/design/icon-heart.png");
+}
+i.icon-heart-checked {
+    background-image: url("../images/design/icon-heart-checked.png");
 }
 i.icon-cart {
-    background-image: url("../images/icon-cart.png");
+    background-image: url("../images/design/icon-cart.png");
 }
-i.icon-highlight {
-    background-image: url("../images/icon-highlight.png");
+i.icon-cart-gray {
+    background-image: url("../images/design/icon-cart-gray.png");
+}
+i.icon-highlight-hot {
+    background-image: url("../images/icons/highlight-hot.png");
+}
+i.icon-highlight-new {
+    background-image: url("../images/icons/highlight-new.png");
+}
+i.icon-search-before {
+    background-image: url("../images/design/icon-search-before.png");
+}
+i.icon-search-after {
+    background-image: url("../images/design/icon-search-after.png");
+}
+i.icon-cart {
+    background-image: url("../images/design/icon-cart.png");
+}
+i.icon-user {
+    background-image: url("../images/design/icon-user.png");
+}
+i.icon-quality {
+    background-image: url("../images/design/icon-quality.png");
+}
+i.icon-shipping {
+    background-image: url("../images/design/icon-shipping.png");
+}
+i.icon-dola {
+    background-image: url("../images/design/icon-dola.png");
 }

@@ -1,0 +1,77 @@
+._boss {
+    background-color: #ebebeb;
+    padding: 0 15%;
+}
+._boss .title {
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    display: block;
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+._boss .content>div {
+    float: left;
+}
+._boss .content .image {
+    width: 37%;
+}
+._boss .image img {
+    width: 100%;
+    height: auto;
+}
+._boss .content>div:nth-child(2) {
+    width: 58%;
+    margin-left: 5%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+._boss .content label {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+._boss .info {
+    margin-top: 35px;
+}
+._boss .info span {
+    display: block;
+    line-height: 28px;
+    font-weight: 600;
+}
+._boss .info>div {
+    float: left;
+    width: 50%;
+}
+._boss .note {
+    margin-top: 20px;
+    line-height: 24px;
+}
+._boss .links {
+    margin-top: 40px;
+}
+._boss .link {
+    margin-top: 20px;
+    position: relative;
+}
+._boss .link a {
+    background-color: #ef8f4a;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+._boss .link a:hover {
+    background-color: #f5bc53;
+}
+._boss .links .icon {
+    background-image: url(../images/logo-youtube.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
