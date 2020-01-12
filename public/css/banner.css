@@ -4,12 +4,12 @@
 ._banner img {
 	width: 100%;
 }
-._banner .slide-2, ._banner .slide-3 {
+._banner .slide-2, ._banner .slide-3, ._banner .slide-4 {
     display: none;
 }
 ._banner .switch {
     position: absolute;
-    bottom: 20px;
+    bottom: 12px;
     left: 50%;
     transform: translateX(-50%);
 }
