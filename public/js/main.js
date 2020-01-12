@@ -31,7 +31,7 @@ setInterval(function () {
         currentIndex = 0;
     }
     changeSlide(currentIndex);
-}, 3000);
+}, 5000);
 
 $witchSlides.click(function () {
     let index = parseInt($(this).data('id')) - 1;
