@@ -1,0 +1,169 @@
+._checkout {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+._checkout h1 {
+    font-size: 20px;
+}
+._checkout>h1 {
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    padding-bottom: 5px;
+    transform: translateX(-50%);
+    border-bottom: 2px solid #f08233;
+}
+._checkout .header {
+    margin-top: 20px;
+}
+._checkout .header>span {
+    display: inline-block;
+    margin-top: 5px;
+}
+._checkout .header a {
+    color: #f08233;
+}
+._checkout .info-customer {
+    margin-top: 20px;
+}
+._checkout .info-customer form {
+    margin-top: 15px;
+}
+._checkout .info-customer form>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+._checkout .info-customer span {
+    width: 35%;
+    display: inline-block;
+}
+._checkout .info-customer input, ._checkout .info-customer textarea {
+    width: 64%;
+    font-size: 15px;
+    border-radius: 25px;
+    border: 2px solid #f08233;
+    outline: 0;
+    padding: 10px 15px;
+}
+._checkout .info-bill {
+    margin-top: 30px;
+}
+._checkout .info-bill .cart {
+    background-color: #dadada;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 15px;
+}
+._checkout table {
+    width: 100%;
+}
+._checkout table tr th, ._checkout table tr td {
+    text-align: center;
+}
+._checkout table tr th {
+    padding-bottom: 10px;
+}
+._checkout table tr th:nth-child(1) {
+    text-align: left;
+    padding-left: 50px;
+}
+._checkout table tr td {
+    border-bottom: 1px solid #ccc;
+}
+._checkout table td span.name {
+    margin-left: 5px;
+}
+._checkout table td span.quantity {
+    min-width: 40px;
+    display: inline-block;
+    text-align: center;
+}
+._checkout table td .icon {
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+}
+._checkout .btn-remove {
+    font-size: 26px;
+    cursor: pointer;
+}
+._checkout .btn-remove:hover {
+    font-weight: bold;
+}
+._checkout .ship-money {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+}
+._checkout .ship-money label {
+    width: calc(35% + 20% + 20%);
+    display: inline-block;
+}
+._checkout .ship-money span {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+._checkout .options>div .total {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+._checkout .options>div .total label {
+    width: calc(35% + 20% + 20%);
+    display: inline-block;
+}
+._checkout .options>div .total span {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+._checkout .code {
+    position: relative;
+    margin-top: 40px;
+}
+._checkout .code input {
+    width: 100%;
+}
+._checkout .code input, ._checkout .code button {
+    font-size: 15px;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    padding: 10px 15px;
+}
+._checkout .code button {
+    background-color: #f08233;
+    color: #fff;
+    width: 50%;
+    min-width: 106px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+._checkout .options h4 {
+    margin-top: 10px;
+}
+._checkout .options h3 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+._checkout .btn-checkout {
+    font-size: 20px;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    padding: 16px 48px;
+    background-color: #f08233;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+

@@ -57,7 +57,7 @@
     margin-left: 5px;
 }
 ._cart table td span.quantity {
-    min-width: 20px;
+    min-width: 40px;
     display: inline-block;
     text-align: center;
 }
@@ -100,8 +100,9 @@
 ._cart .footer .total-cart label {
     text-transform: uppercase;
 }
-._cart .footer button.checkout {
+._cart .footer a.checkout {
     margin-top: 25px;
+    display: inline-block;
     background-color: #f08233;
     color: #fff;
     padding: 10px 35px;

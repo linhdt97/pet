@@ -7,6 +7,8 @@
 @import "product.css";
 @import "news.css";
 @import "footer.css";
+@import "notification.css";
+@import "checkout.css";
 @import "cart.css";
 
 * {
@@ -22,13 +24,11 @@ a {
 ul {
     list-style: none;
 }
-
 .clear-fix:after {
     content: '';
     clear: both;
     display: block;
 }
-
 i.icon {
     width: 24px;
     height: 24px;
@@ -37,17 +37,27 @@ i.icon {
     background-position: center;
     cursor: pointer;
 }
-
 .row:after {
     content: '';
     clear: both;
     display: block;
 }
-
 #app {
     width: 1440px;
 }
-
 .font-baloo {
     font-family: 'Baloo';
 }
+.w-50 {
+    width: 50%;
+}
+.mt-40 {
+    margin-top: 40px !important;
+}
+.mg-auto {
+    margin: auto;
+}
+.text-center {
+    text-align: center;
+}
+

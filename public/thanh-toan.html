@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet shop</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="app">
+    <div class="_header">
+        <div class="header-left">
+            <div class="icon-page logo"></div>
+            <ul class="menu">
+                <li><a href="trang-chu.html">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#" class="highlight">Boss tìm sen</a></li>
+            </ul>
+        </div>
+        <div class="search-container">
+            <form action="">
+                <input type="search" name="search" placeholder="Bạn muốn tìm gì hôm nay?">
+                <label class="">
+                    <i class="icon-search-before"></i>
+                </label>
+            </form>
+        </div>
+        <div class="header-right">
+            <div class="cart">
+                <i class="icon-cart"></i>
+                <span>0</span>
+            </div>
+            <div class="user">
+                <i class="icon-user"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="_checkout">
+    	<h1>THANH TOÁN</h1>
+    	<div class="header">
+    		<span>Bạn đã là thành viên của Petme ???</span>
+            <span><a href="#">Đăng nhập</a> để việc xác nhận đơn hàng trở nên dễ dàng hơn và nhận nhiều ưu đãi nào !!!</span>
+    	</div>
+        <div class="info-customer">
+            <h1>THÔNG TIN KHÁCH HÀNG</h1>
+            <form action="#">
+                <div>
+                    <span>Tên khách hàng:</span>
+                    <input type="text" name="customer_name" value="Nguyen Xuan Anh">
+                </div>
+                <div>
+                    <span>Số điện thoại:</span>
+                    <input type="text" name="phone" value="0966250826">
+                </div>
+                <div>
+                    <span>Địa chỉ:</span>
+                    <input type="text" name="address" value="Ngõ 211 Khương Trung, Thanh Xuân, Hà Nội">
+                </div>
+                <div>
+                    <span>Ghi chú:</span>
+                    <textarea>Ship ngoài giờ hành chính</textarea>
+                </div>
+            </form>
+        </div>
+        <div class="info-bill">
+            <h1>THÔNG TIN ĐƠN HÀNG</h1>
+            <div class="cart">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Số lượng</th>
+                            <th>Đơn giá</th>
+                            <th>Thành tiền</th>
+                            <th>&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <div class="options">
+                    <div class="ship-money">
+                        <label>Phí ship hàng</label>
+                        <span>0 vnđ</span>
+                    </div>
+                    <div>
+                        <div class="total total-cart">
+                            <label>TỔNG ĐƠN HÀNG: </label>
+                            <span>0 vnđ</span>
+                        </div>
+                        <div class="w-50 mg-auto text-center">
+                            <div class="code">
+                                <input name="code" value="HAPPY30">
+                                <button>ÁP DỤNG</button>
+                            </div>
+                            <h4>Tiết kiệm: 30.000 vnđ</h4>
+                            <h3>GIÁ TRỊ ĐƠN HÀNG: <span>0</span> vnđ</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-35 mg-auto text-center mt-40">
+            <button class="btn-checkout">Thanh toán</button>
+        </div>
+    </div>
+
+    <div class="_footer">
+        <div class="_container clear-fix">
+            <div class="info">
+                <div class="open">
+                    <label class="label">Giờ mở cửa</label>
+                    <div class="content">
+                        <div class="item">
+                            <span>Thứ 2 - Thứ 6:</span>
+                            <span>9:00 - 21:00</span>
+                        </div>
+                        <div class="item">
+                            <span>Thứ 7, Chủ nhật:</span>
+                            <span>10:00 - 22:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="place">
+                    <label class="label">Liên hệ</label>
+                    <div class="content">
+                        <div class="item">
+                            <span>Địa chỉ:</span>
+                            <span>Số 40 Vương Thừa Vũ, Thanh Xuân, Hà Nội</span>
+                        </div>
+                        <div class="item">
+                            <span>Email:</span>
+                            <span>hanvu94@gmail.com</span>
+                        </div>
+                        <div class="item">
+                            <span>Số điện thoại:</span>
+                            <span>+84 9 3849 2044</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thanks">
+                <i class="logo-orange"></i>
+                <p>Cám ơn bạn đã ghé thăm cửa hàng!</p>
+            </div>
+            <div class="contact">
+                <label class="label">Nhận tin hôm nay, nhận ngay ưu đãi</label>
+                <p>Đăng ký nhận bản tin của chúng tôi và nhận giảm giá 10% cho đơn hàng đầu tiên.</p>
+                <div>
+                    <form>
+                        <input name="email" type="email" placeholder="Email:">
+                        <button>Đăng ký</button>
+                    </form>
+                </div>
+                <div>
+                    <label class="label fanpage">Fanpages:</label>
+                    <form>
+                        <input type="text" name="petme" placeholder="Petme">
+                        <button>Theo dõi</button>
+                    </form>
+                </div>
+                <div class="connect">
+                    <span>Kết nối với chúng tôi</span>
+                    <i class="icon icon-instagram"></i>
+                    <i class="icon icon-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">&copy; Photo, Inc. 2019. We love our users!</div>
+    </div>
+</div>
+
+<script src="libs/jquery.min.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
