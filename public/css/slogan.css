@@ -1,8 +1,8 @@
 ._slogan {
     width: 70%;
     margin: auto;
+    position: relative;
 }
-
 ._slogan .title {
     width: 70%;
     margin: auto;
@@ -12,4 +12,16 @@
     line-height: 35px;
     font-weight: 900;
     text-align: center;
+}
+._slogan .icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(100% + 15% - 20px);
+}
+._slogan .icon-messenger-bg-white {
+    top: calc(50% - 55px);
+}
+._slogan .icon-call {
+    top: calc(50% + 5px);
 }
