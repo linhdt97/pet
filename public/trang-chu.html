@@ -11,7 +11,7 @@
 </head>
 <body>
 <div id="app">
-    <div class="_header">
+    <div class="_header mobile-hidden">
         <div class="header-left">
             <div class="icon-page logo"></div>
             <ul class="menu">
@@ -40,6 +40,11 @@
                 <i class="icon-user"></i>
             </div>
         </div>
+    </div>
+    <div class="_header-mobile desktop-hidden">
+        <i class="icon-menu"></i>
+        <i class="icon-page logo"></i>
+        <i class="icon-cart"></i>
     </div>
 
     <div class="_notification">
@@ -159,7 +164,7 @@
         </div>
     </div>
 
-    <div class="_banner">
+    <div class="_banner mobile-hidden">
         <img class="slide-1" src="images/slides/slide-1.jpg">
         <img class="slide-2" src="images/slides/slide-2.jpg">
         <img class="slide-3" src="images/slides/slide-3.jpg">
@@ -170,6 +175,9 @@
             <span data-id="3"></span>
             <span data-id="4"></span>
         </div>
+    </div>
+    <div class="_banner-mobile desktop-hidden">
+        <img src="images/slides/banner-mobile.jpg">
     </div>
 
     <div class="_slogan">
@@ -216,10 +224,14 @@
                         <span>Tình trạng: Chưa được nhận nuôi</span>
                     </div>
                 </div>
-                <div class="note">
+                <div class="note mobile-hidden">
                     <p>Thông tin chi tiết</p>
                     <span>Mình mới nhặt được 2 bé mèo ta màu vàng khoảng 2 tháng tuổi rất xinh và ngoan
                         nhưng điều kiện không cho phép nuôi thêm nên tìm chủ yêu thương cho 2 bé</span>
+                </div>
+                <div class="note desktop-hidden">
+                    Note: Mình mới nhặt được 2 bé mèo ta màu vàng khoảng 2 tháng tuổi rất xinh
+                    và ngoan nhưng điều kiện không cho phép nuôi thêm nên tìm chủ yêu thương cho 2 bé.
                 </div>
                 <div class="links">
                     <p>Xem thêm thông tin về thú cưng đi lạc, cho và tặng thú cưng</p>
@@ -288,6 +300,22 @@
                         </div>
                     </div>
                 </div>
+                <div class="product-item desktop-hidden">
+                    <div class="image">
+                        <img src="images/products/product_pate_chicken_liver.png" class="img-1">
+                        <img src="images/products/product_pate_chicken_liver.jpg" class="img-2">
+                        <i class="icon icon-heart"></i>
+                        <i class="icon icon-cart-gray"></i>
+                        <i class="icon icon-highlight-hot"></i>
+                    </div>
+                    <div class="info">
+                        <label class="name">Pate Gan Gà</label>
+                        <div class="price">
+                            <span class="real-price"><span>80.000</span> vnđ</span>
+                            <span class="promotion-price">100.000 vnđ</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="new-products">
@@ -327,6 +355,21 @@
                     </div>
                 </div>
                 <div class="product-item">
+                    <div class="image">
+                        <img src="images/products/product_pate_tuna.png" class="img-1">
+                        <img src="images/products/product_pate_tuna.jpg" class="img-2">
+                        <i class="icon icon-heart"></i>
+                        <i class="icon icon-cart-gray"></i>
+                        <i class="icon icon-highlight-new"></i>
+                    </div>
+                    <div class="info">
+                        <label class="name">Pate Cá Ngừ</label>
+                        <div class="price">
+                            <span>100.000</span> vnđ
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item desktop-hidden">
                     <div class="image">
                         <img src="images/products/product_pate_tuna.png" class="img-1">
                         <img src="images/products/product_pate_tuna.jpg" class="img-2">
@@ -389,8 +432,21 @@
                             </div>
                         </div>
                     </div>
+                    <div class="product-item desktop-hidden">
+                        <div class="image">
+                            <img src="images/products/product_pate_tuna.png">
+                            <i class="icon icon-heart"></i>
+                            <i class="icon icon-cart-gray"></i>
+                        </div>
+                        <div class="info">
+                            <label class="name">Pate Cá Ngừ</label>
+                            <div class="price">
+                                <span>100.000</span> vnđ
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
+                <div class="row mobile-hidden">
                     <div class="product-item">
                         <div class="image">
                             <img src="images/products/feed-dog-chihuahua.png">
@@ -431,7 +487,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mobile-hidden">
                     <div class="product-item">
                         <div class="image">
                             <img src="images/products/babycat-milk-royal-canin.png">

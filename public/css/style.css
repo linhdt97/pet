@@ -10,6 +10,7 @@
 @import "notification.css";
 @import "checkout.css";
 @import "cart.css";
+@import "mobile.css";
 
 * {
     margin: 0;
