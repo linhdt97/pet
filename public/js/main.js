@@ -1,3 +1,12 @@
+function addDotInNumber(number) {
+    return (number + '').replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+}
+function removeDotInNumber(number) {
+    return (number + '').replace(/\./g, '');
+}
+var cart = new Cart();
+cart.init();
+
 $('._header .search-container label').click(function () {
     let that = $(this);
     if (that.attr('class').match(/active/i)) {
@@ -11,13 +20,14 @@ $('._header .search-container label').click(function () {
 
 $('._products .product-item i').click(function () {
     let that = $(this);
+    // thích sản phẩm
     if (that.attr('class').match(/icon-heart/i)) {
         let classIcon = 'icon ' + (that.attr('class').match(/icon-heart-checked/i) ? 'icon-heart' : 'icon-heart-checked');
         that.attr('class', classIcon);
     }
+    // thêm sản phẩm vào giỏ hàng
     if (that.attr('class').match(/icon-cart/i)) {
-        let domCountProducts = $('._header .cart span');
-        domCountProducts.text(parseInt(domCountProducts.text()) + 1);
+        cart.push(that.closest('.product-item'));
     }
 });
 
@@ -50,52 +60,61 @@ function changeSlide(index) {
 
 // ẩn/hiện giỏ hàng
 $('._header .icon-cart').click(function () {
-    $('._cart').show(1000);
+    cart.renderProducts();
+    $('._cart').show(300);
 });
-$('._cart .btn-close').click(function () {
-    $('._cart').hide(1000);
+$('.btn-close').click(function () {
+    $('._cart, ._notification').hide(300);
 });
 
-function addDotInNumber(number) {
-    return (number + '').replace(/\B(?=(\d{3})+(?!\d))/g, '.');
-}
-function removeDotInNumber(number) {
-    return (number + '').replace(/\./g, '');
-}
 function updateTotalPriceInCart()
 {
     let totalPrice = 0;
-    $('._cart table td.total span').map((i, el) => {
+    $('table td.total span').map((i, el) => {
         let total = removeDotInNumber($(el).text());
         totalPrice += parseInt(total);
     });
-    $('._cart .total-cart span').text(addDotInNumber(totalPrice) + ' vnđ');
+    $('.total-cart span').text(addDotInNumber(totalPrice) + ' vnđ');
+    if ($('._checkout .options h3>span').length) {
+        $('.options h3>span').text(addDotInNumber(totalPrice >= 30000 ? totalPrice - 30000 : 0));
+    }
 }
 
 // cập nhật giỏ hàng
-$('._cart .icon-add').click(function () {
+$(document).on('click', '._cart .icon, ._checkout .icon', function () {
     let that = $(this);
-    let quantity = parseInt(that.siblings('.quantity').text()) + 1;
-    let price = that.parent().siblings('.price').data('value');
-    that.parent().siblings('.total').children('span').text(addDotInNumber(quantity * price));
-    that.siblings('.quantity').text(quantity);
-    updateTotalPriceInCart();
-});
-$('._cart .icon-sub').click(function () {
-    let that = $(this);
-    let quantity = parseInt(that.siblings('.quantity').text()) - 1;
+    let quantity = parseInt(that.siblings('.quantity').text());
+    let classList = that.attr('class');
+    classList.match(/icon-add/i) ? quantity++ : quantity--;
     if (quantity === 0) {
         return;
     }
+    let name = that.closest('tr').find('.name').text();
+    cart.update(name, quantity);
     let price = that.parent().siblings('.price').data('value');
     that.parent().siblings('.total').children('span').text(addDotInNumber(quantity * price));
     that.siblings('.quantity').text(quantity);
     updateTotalPriceInCart();
 });
-$('._cart .btn-remove').click(function () {
-    $(this).closest('tr').remove();
+$(document).on('click', '.btn-remove', function () {
+    let domTr = $(this).closest('tr');
+    let name = domTr.find('.name').text();
+    cart.delete(name);
+    domTr.remove();
     updateTotalPriceInCart();
 });
+// thanh toán, xóa sản phẩm trong giỏ hàng
+$('.btn-checkout').click(function () {
+    localStorage.removeItem('products');
+    localStorage.setItem('checkout-success', '1');
+    window.location.href = 'trang-chu.html';
+});
+// hiển thị modal thanh toán thành công ở trang chủ nếu có
+let statusCheckout = localStorage.getItem('checkout-success');
+if (parseInt(statusCheckout) === 1) {
+    $('._notification').show(300);
+    localStorage.removeItem('checkout-success');
+}
 
 
 
