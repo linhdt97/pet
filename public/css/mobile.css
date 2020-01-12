@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #app {
         width: 100% !important;
     }
@@ -197,8 +197,6 @@
     ._footer .copyright {
         padding: 10px 0;
     }
-
-
     ._footer .thanks .logo-orange {
         width: calc(60px * 1892/1034);
         height: 60px;
@@ -211,17 +209,12 @@
     }
 
 
-
-
     .mobile-hidden {
         display: none;
     }
 }
 
-@media screen and (min-width: 401px) {
-    /*._banner-mobile {*/
-    /*    display: none;*/
-    /*}*/
+@media screen and (min-width: 501px) {
     .desktop-hidden {
         display: none;
     }
