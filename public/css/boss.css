@@ -67,11 +67,14 @@
     background-color: #f5bc53;
 }
 ._boss .links .icon {
-    background-image: url(../images/logo-youtube.png);
-    background-size: cover;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     position: absolute;
     top: -10px;
+}
+._boss .links .icon-messenger-bg-blue {
     right: 0;
+}
+._boss .links .icon-facebook {
+    right: 45px;
 }

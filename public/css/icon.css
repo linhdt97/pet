@@ -37,3 +37,21 @@ i.icon-shipping {
 i.icon-dola {
     background-image: url("../images/design/icon-dola.png");
 }
+i.icon-call {
+    background-image: url("../images/icons/call.png");
+}
+i.icon-messenger-bg-white {
+    background-image: url("../images/icons/messenger-bg-white.png");
+}
+i.icon-facebook {
+    background-image: url("../images/icons/facebook.png");
+}
+i.icon-messenger-bg-blue {
+    background-image: url("../images/icons/messenger-bg-blue.png");
+}
+i.icon-instagram {
+    background-image: url("../images/icons/instagram.png");
+}
+i.icon-youtube {
+    background-image: url("../images/icons/youtube.png");
+}

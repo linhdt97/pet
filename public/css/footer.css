@@ -94,27 +94,12 @@
     line-height: 20px;
 }
 ._footer .contact .icon {
-    display: inline-flex;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    margin-left: 5px;
-}
-._footer .icon i {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-size: cover;
     background-position: center;
-}
-._footer .logo-instagram {
-    background-image: url("../images/logo-instagram.png");
-}
-._footer .logo-youtube {
-    background-image: url("../images/logo-youtube.png");
+    margin-left: 5px;
 }
 ._footer .copyright {
     padding-top: 20px;
