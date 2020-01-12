@@ -48,5 +48,58 @@ function changeSlide(index) {
     currentIndex = index;
 }
 
+// ẩn/hiện giỏ hàng
+$('._header .icon-cart').click(function () {
+    $('._cart').show(1000);
+});
+$('._cart .btn-close').click(function () {
+    $('._cart').hide(1000);
+});
+
+function addDotInNumber(number) {
+    return (number + '').replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+}
+function removeDotInNumber(number) {
+    return (number + '').replace(/\./g, '');
+}
+function updateTotalPriceInCart()
+{
+    let totalPrice = 0;
+    $('._cart table td.total span').map((i, el) => {
+        let total = removeDotInNumber($(el).text());
+        totalPrice += parseInt(total);
+    });
+    $('._cart .total-cart span').text(addDotInNumber(totalPrice) + ' vnđ');
+}
+
+// cập nhật giỏ hàng
+$('._cart .icon-add').click(function () {
+    let that = $(this);
+    let quantity = parseInt(that.siblings('.quantity').text()) + 1;
+    let price = that.parent().siblings('.price').data('value');
+    that.parent().siblings('.total').children('span').text(addDotInNumber(quantity * price));
+    that.siblings('.quantity').text(quantity);
+    updateTotalPriceInCart();
+});
+$('._cart .icon-sub').click(function () {
+    let that = $(this);
+    let quantity = parseInt(that.siblings('.quantity').text()) - 1;
+    if (quantity === 0) {
+        return;
+    }
+    let price = that.parent().siblings('.price').data('value');
+    that.parent().siblings('.total').children('span').text(addDotInNumber(quantity * price));
+    that.siblings('.quantity').text(quantity);
+    updateTotalPriceInCart();
+});
+$('._cart .btn-remove').click(function () {
+    $(this).closest('tr').remove();
+    updateTotalPriceInCart();
+});
+
+
+
+
+
 
 

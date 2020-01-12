@@ -55,3 +55,9 @@ i.icon-instagram {
 i.icon-youtube {
     background-image: url("../images/icons/youtube.png");
 }
+i.icon-add {
+    background-image: url("../images/icons/add.png");
+}
+i.icon-sub {
+    background-image: url("../images/icons/sub.png");
+}
